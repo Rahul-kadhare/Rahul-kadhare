@@ -1,0 +1,5 @@
+defaultProject: engaged-talon-460912-n2
+defaultLocation: US
+defaultDataset: row_dataset
+defaultAssertionDataset: dataform_assertions
+dataformCoreVersion: 3.0.0

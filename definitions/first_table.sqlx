@@ -1,0 +1,9 @@
+config {
+  type: "table",
+  columns: {
+    name: "A description for the test column",
+    platform: "second column"
+  }
+}
+SELECT "datafrom" as name, 
+      "GCP" as platform

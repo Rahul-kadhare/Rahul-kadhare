@@ -1,0 +1,9 @@
+config {
+    type: "view",
+    materialized: true
+}
+select distinct drink_id,
+    drink_name,
+    drink_type
+from
+${ref("drinks")}

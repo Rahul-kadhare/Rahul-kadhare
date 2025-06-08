@@ -1,0 +1,6 @@
+config {
+    type : "view",
+    schema : "row_dataset"
+}
+select *
+from ${ref("v_drinks")}

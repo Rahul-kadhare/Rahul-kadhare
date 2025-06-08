@@ -1,0 +1,13 @@
+config {
+    type: "view",
+    schema : "row_dataset"
+}
+select
+    distinct meal_id,
+    meal_name,
+    meal_type,
+    calories
+from 
+    ${ref("meals")}
+where 
+    calories >= 500
